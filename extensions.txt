@@ -1,0 +1,41 @@
+# extensions.txt
+# Xiaoyu Yan (xy97) and Jeremy Glassman (jrg348)
+# 12/04/16
+
+
+Used Soundcloud for We are the Champions music and Wah Wah sound.
+
+The extensions we added are: levels, when a player wins a level, they can go on
+to the next level were an extra row of bricks are added. 
+If they lose, they go
+back to the first level. We added sound when the ball hits the paddle, and we
+added sounds when the ball hits a brick. 
+The sound when the ball hits the brick
+is random (the game randomly plays one of a few different sounds). 
+There is also
+sound played when a player loses a level (wah wah) and wins a level (we are the
+champions). 
+Furthermore, we added a multitude of different messages, such as 
+current level, current score (score of the current level), amount of lives, and 
+
+total score (score throughout all levels combined). 
+We also added a powerup:
+extra lives. The player receives an extra life when the player destroys half 
+the bricks of a certain level 
+(if odd number of bricks in a level, then 0.5 more
+ than half) and when the player destroys all of the bricks in a level. 
+A message
+"extra life" flashes on the screen when the player gets an extra life. These 
+extra lives carry through the levels. 
+We also added some special effects to 
+some of the messages, such as the "3 2 1" countdown message and the end message where the messages pop out. 
+We also made the
+ball to be an image of Professor Walker White's head. Furthermore, we added
+special physics to the ball, 
+so that depending where the ball hits the paddle,
+the ball's direction and speed change. 
+For example, hits in the center goes 
+straight up, hits far to the left, goes very low and very fast to the left,
+same for the right, and etc. 
+Basically, the ball's speed is multiplied by a
+ constant that depends where the on the paddle the ball hit. 
